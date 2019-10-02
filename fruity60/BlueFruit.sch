@@ -1,0 +1,253 @@
+EESchema Schematic File Version 4
+LIBS:BlueFruit-cache
+EELAYER 30 0
+EELAYER END
+$Descr User 11988 8468
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10500 5400 10500 5500
+Text Label 10500 5400 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 4700 9900 4700
+Wire Wire Line
+	9900 4700 9900 4800
+Text Label 9500 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 5500 8900 5500
+Text Label 8900 5500 0    70   ~ 0
+MOSI
+Wire Wire Line
+	8900 5600 9500 5600
+Text Label 8900 5600 0    70   ~ 0
+MISO
+Wire Wire Line
+	9500 5400 8900 5400
+Text Label 8900 5400 0    70   ~ 0
+SCK
+Wire Wire Line
+	9500 4400 9000 4400
+Text Label 9000 4400 0    70   ~ 0
+RST
+Wire Wire Line
+	8900 5300 9500 5300
+Text Label 8900 5300 0    70   ~ 0
+A5
+Wire Wire Line
+	9500 5200 8900 5200
+Text Label 8900 5200 0    70   ~ 0
+A4
+Wire Wire Line
+	8900 5100 9500 5100
+Text Label 8900 5100 0    70   ~ 0
+A3
+Wire Wire Line
+	9500 5000 8900 5000
+Text Label 8900 5000 0    70   ~ 0
+A2
+Wire Wire Line
+	8900 4900 9500 4900
+Text Label 8900 4900 0    70   ~ 0
+A1
+Wire Wire Line
+	8100 5300 7200 5300
+Text Label 7200 5300 0    70   ~ 0
+5
+Wire Wire Line
+	8100 4900 7200 4900
+Text Label 7200 4900 0    70   ~ 0
+11
+Wire Wire Line
+	7200 5000 8100 5000
+Text Label 7200 5000 0    70   ~ 0
+10
+Wire Wire Line
+	7200 5200 8100 5200
+Text Label 7200 5200 0    70   ~ 0
+6
+Wire Wire Line
+	7200 4800 8100 4800
+Text Label 7200 4800 0    70   ~ 0
+12
+Wire Wire Line
+	7200 5500 8100 5500
+Text Label 7200 5500 0    70   ~ 0
+2
+Wire Wire Line
+	9500 4600 9900 4600
+Text Label 9700 4600 0    70   ~ 0
+AREF
+Wire Wire Line
+	8900 5800 9500 5800
+Text Label 8900 5800 0    70   ~ 0
+1
+Wire Wire Line
+	9500 5700 8900 5700
+Text Label 8900 5700 0    70   ~ 0
+0
+Wire Wire Line
+	8900 4400 8900 4500
+Wire Wire Line
+	8900 4500 9500 4500
+Text Label 8900 4400 0    10   ~ 0
++3V3
+Wire Wire Line
+	8100 4600 7800 4600
+Text Label 8100 4600 0    10   ~ 0
+VBUS
+Wire Wire Line
+	7800 4400 8100 4400
+Text Label 7800 4400 0    10   ~ 0
+VBAT
+Wire Wire Line
+	9500 5900 8900 5900
+Text Label 8900 5900 0    70   ~ 0
+DFU
+Wire Wire Line
+	10500 5000 10500 5100
+Wire Wire Line
+	8100 4700 7200 4700
+Text Label 7200 4700 0    70   ~ 0
+13
+Wire Wire Line
+	10500 4600 10500 4400
+Text Label 10500 4400 3    70   ~ 0
+13
+Wire Wire Line
+	9500 4800 8900 4800
+Text Label 8900 4800 0    70   ~ 0
+A0
+Wire Wire Line
+	8100 5100 7200 5100
+Text Label 7200 5100 0    70   ~ 0
+9
+Wire Wire Line
+	8100 5400 7200 5400
+Text Label 7200 5400 0    70   ~ 0
+3
+Wire Wire Line
+	7200 4500 8100 4500
+Text Label 7200 4500 0    70   ~ 0
+EN
+$Comp
+L Untitled-eagle-import:LED0805_NOOUTLINE L
+U 1 1 D711E10D
+P 10500 5300
+F 0 "L" H 10450 5475 42  0000 C CNN
+F 1 "RED" H 10450 5190 42  0000 C CNN
+F 2 "Untitled:CHIPLED_0805_NOOUTLINE" H 10500 5300 50  0001 C CNN
+F 3 "" H 10500 5300 50  0001 C CNN
+	1    10500 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Untitled-eagle-import:RESISTOR_0603_NOOUT R7
+U 1 1 30EE9C65
+P 10500 4800
+F 0 "R7" H 10500 4900 50  0000 C CNN
+F 1 "2.2K" H 10500 4800 40  0000 C CNB
+F 2 "Untitled:0603-NO" H 10500 4800 50  0001 C CNN
+F 3 "" H 10500 4800 50  0001 C CNN
+	1    10500 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Untitled-eagle-import:GND #GND10
+U 1 1 EE95B960
+P 10500 5600
+F 0 "#GND10" H 10500 5600 50  0001 C CNN
+F 1 "GND" H 10400 5500 59  0000 L BNN
+F 2 "" H 10500 5600 50  0001 C CNN
+F 3 "" H 10500 5600 50  0001 C CNN
+	1    10500 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Untitled-eagle-import:VBUS #U$19
+U 1 1 24E1B701
+P 7700 4600
+F 0 "#U$19" H 7700 4600 50  0001 C CNN
+F 1 "VBUS" H 7640 4640 42  0000 L BNN
+F 2 "" H 7700 4600 50  0001 C CNN
+F 3 "" H 7700 4600 50  0001 C CNN
+	1    7700 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Untitled-eagle-import:VBAT #U$20
+U 1 1 DC93C178
+P 7700 4400
+F 0 "#U$20" H 7700 4400 50  0001 C CNN
+F 1 "VBAT" H 7640 4440 42  0000 L BNN
+F 2 "" H 7700 4400 50  0001 C CNN
+F 3 "" H 7700 4400 50  0001 C CNN
+	1    7700 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Untitled-eagle-import:HEADER-1X16ROUND JP1
+U 1 1 A75A2B47
+P 9400 5200
+F 0 "JP1" H 9150 6025 59  0000 L BNN
+F 1 "HEADER-1X16ROUND" H 9150 4200 59  0000 L BNN
+F 2 "Untitled:1X16_ROUND" H 9400 5200 50  0001 C CNN
+F 3 "" H 9400 5200 50  0001 C CNN
+	1    9400 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Untitled-eagle-import:+3V3 #+3V1
+U 1 1 612E3AAF
+P 8900 4300
+F 0 "#+3V1" H 8900 4300 50  0001 C CNN
+F 1 "+3V3" V 8800 4100 59  0000 L BNN
+F 2 "" H 8900 4300 50  0001 C CNN
+F 3 "" H 8900 4300 50  0001 C CNN
+	1    8900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Untitled-eagle-import:GND #GND4
+U 1 1 6AE2E73F
+P 9900 4900
+F 0 "#GND4" H 9900 4900 50  0001 C CNN
+F 1 "GND" H 9800 4800 59  0000 L BNN
+F 2 "" H 9900 4900 50  0001 C CNN
+F 3 "" H 9900 4900 50  0001 C CNN
+	1    9900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Untitled-eagle-import:FRAME_A4 #FRAME1
+U 1 1 7D0788B5
+P 900 7600
+F 0 "#FRAME1" H 900 7600 50  0001 C CNN
+F 1 "FRAME_A4" H 900 7600 50  0001 C CNN
+F 2 "" H 900 7600 50  0001 C CNN
+F 3 "" H 900 7600 50  0001 C CNN
+	1    900  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Untitled-eagle-import:HEADER-1X12 JP3
+U 1 1 48CD7B62
+P 8200 5000
+F 0 "JP3" H 7950 5725 59  0000 L BNN
+F 1 "HEADER-1X12" H 7950 4300 59  0000 L BNN
+F 2 "Untitled:1X12_ROUND" H 8200 5000 50  0001 C CNN
+F 3 "" H 8200 5000 50  0001 C CNN
+	1    8200 5000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
