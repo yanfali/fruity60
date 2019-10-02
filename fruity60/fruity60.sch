@@ -1938,7 +1938,7 @@ U 1 1 A75A2B47
 P 7250 1850
 F 0 "JP1" H 7000 2675 59  0000 L BNN
 F 1 "HEADER-1X16ROUND" H 7000 850 59  0000 L BNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x16_Pitch1.00mm" H 7250 1850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 7250 1850 50  0001 C CNN
 F 3 "" H 7250 1850 50  0001 C CNN
 	1    7250 1850
 	-1   0    0    1   
@@ -1971,7 +1971,7 @@ U 1 1 48CD7B62
 P 9050 4900
 F 0 "JP2" H 8800 5625 59  0000 L BNN
 F 1 "HEADER-1X12" H 8800 4200 59  0000 L BNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x12_Pitch1.00mm" H 9050 4900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x11_Pitch2.54mm" H 9050 4900 50  0001 C CNN
 F 3 "" H 9050 4900 50  0001 C CNN
 	1    9050 4900
 	1    0    0    -1  
