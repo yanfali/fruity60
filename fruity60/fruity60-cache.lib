@@ -41,33 +41,6 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Untitled-eagle-import_+3V3
-#
-DEF Untitled-eagle-import_+3V3 #+3V3 0 40 Y Y 1 L P
-F0 "#+3V3" 0 0 50 H I C CNN
-F1 "Untitled-eagle-import_+3V3" -100 -200 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 0 -50 -75 N
-P 2 1 0 0 50 -75 0 0 N
-X +3V3 1 0 -100 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# Untitled-eagle-import_GND
-#
-DEF Untitled-eagle-import_GND #GND 0 40 Y Y 1 L P
-F0 "#GND" 0 0 50 H I C CNN
-F1 "Untitled-eagle-import_GND" -100 -100 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -75 0 75 0 N
-X GND 1 0 100 100 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
 # Untitled-eagle-import_HEADER-1X12
 #
 DEF Untitled-eagle-import_HEADER-1X12 JP 0 40 Y Y 1 L N
@@ -151,6 +124,35 @@ DRAW
 P 2 1 0 0 -50 -50 0 0 N
 P 2 1 0 0 0 0 50 -50 N
 X VBUS 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
