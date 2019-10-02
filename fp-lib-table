@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Adafruit Feather 32u4 Bluefruit LE")(type KiCad)(uri "$(KIPRJMOD)/Adafruit Feather 32u4 Bluefruit LE.pretty")(options "")(descr ""))
+)
