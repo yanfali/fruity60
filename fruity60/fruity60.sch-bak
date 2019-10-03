@@ -2047,8 +2047,6 @@ Text GLabel 6750 2350 0    50   Input ~ 0
 D2
 Text GLabel 6750 2450 0    50   Input ~ 0
 D3
-Text GLabel 8050 4600 0    50   Input ~ 0
-C7
 Text GLabel 8050 4700 0    50   Input ~ 0
 D6
 Text GLabel 8050 4800 0    50   Input ~ 0
@@ -2070,11 +2068,11 @@ D2
 Text GLabel 5000 3050 1    50   Input ~ 0
 D3
 Text GLabel 5500 3050 1    50   Input ~ 0
-C7
+B7
 Text GLabel 6000 3050 1    50   Input ~ 0
 D6
 Text GLabel 6500 3000 1    50   Input ~ 0
-B7
+C7
 $Comp
 L Device:D_Small D5
 U 1 1 5D9C69F7
@@ -2108,4 +2106,6 @@ F 3 "" H 7750 1450 50  0001 C CNN
 	1    7750 1450
 	1    0    0    -1  
 $EndComp
+Text GLabel 8050 4600 0    50   Input ~ 0
+C7
 $EndSCHEMATC
