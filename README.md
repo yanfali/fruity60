@@ -6,7 +6,7 @@ A 60% PCB compatible with the [Adafruit Bluefruit BLE 32u4](https://github.com/a
 
 Only supports 1 layout (tsangan), PCB mounted switches.
 
-Primarily designed for fun, to learn [KICAD](http://www.kicad-pcb.org/)
+Primarily designed for fun, to learn [KICAD](http://www.kicad.org/)
 and give back to the keyboard community in educational material.
 If you find this design useful, I ask you to please
 [donate](https://donorbox.org/qmk) to [QMK](https://qmk.fm), as it is the
